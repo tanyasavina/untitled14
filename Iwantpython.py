@@ -4,7 +4,7 @@ updater = Updater(token='524090412:AAHC6mjNhViDYgjgd1fmeg1TGo_B_QYL0gE')
 dispatcher = updater.dispatcher
 
 def startCommand(bot, update):
-    bot.send_message(chat_id=update.message.chat_id, text='Hi')
+    bot.send_message(chat_id=update.message.chat_id, text='Hi there')
 def textMessage(bot, update):
     response = 'Got your message' + update.message.text
     bot.send_message(chat_id=update.message.chat_id, text=response)
